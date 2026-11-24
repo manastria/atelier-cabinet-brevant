@@ -1,0 +1,46 @@
+Return-Path: <contact@cabinet-brevant.example>
+Received: from smtp-out2.messagerie-pro.example (smtp-out2.messagerie-pro.example [192.0.2.80])
+	by mx.fournisseur-mail.example (Postfix) with ESMTPS id 3E9D0B7741
+	for <garage.lefevre@garage-lefevre.example>; Mon, 08 Mar 2027 07:52:14 +0100 (CET)
+Received: from webmail.messagerie-pro.example (webmail.messagerie-pro.example [192.0.2.81])
+	by smtp-out2.messagerie-pro.example (Postfix) with ESMTPSA id 88C2F41A0
+	for <garage.lefevre@garage-lefevre.example>; Mon, 08 Mar 2027 07:52:12 +0100 (CET)
+Authentication-Results: mx.fournisseur-mail.example;
+	spf=pass smtp.mailfrom=cabinet-brevant.example;
+	dkim=pass header.d=cabinet-brevant.example;
+	dmarc=pass header.from=cabinet-brevant.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cabinet-brevant.example;
+	s=messagerie1; h=from:reply-to:to:subject:date:message-id;
+	bh=Zp3Lk8Jm1Nq5Rt0Vx7Yb2Cd6Fg9Hj4Kl1Mn8Pq3Rs6=;
+	b=Aa1Bb2Cc3Dd4Ee5Ff6Gg7Hh8Ii9Jj0Kk1Ll2Mm3Nn4Oo5Pp6Qq7Rr8Ss9Tt0Uu1Vv2Ww3Xx4Yy5Zz6==
+X-Originating-IP: [198.51.100.77]
+From: =?UTF-8?Q?Cabinet_Br=C3=A9vant_&_Associ=C3=A9s?= <contact@cabinet-brevant.example>
+Reply-To: compta.brevant@courrier-rapide.example
+To: Garage Lefevre <garage.lefevre@garage-lefevre.example>
+Subject: =?UTF-8?Q?Changement_de_coordonn=C3=A9es_bancaires?=
+Date: Mon, 08 Mar 2027 07:52:12 +0100
+Message-ID: <20270308065212.88C2F41A0@smtp-out2.messagerie-pro.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Madame, Monsieur,
+
+Notre cabinet change d'établissement bancaire. À compter de ce jour, merci
+de régler nos honoraires sur le compte suivant :
+
+Titulaire : Cabinet Brevant et Associes
+IBAN : FR76 9999 9000 0000 0000 0000 042
+BIC : FICTFRPPXXX
+
+L'ancien compte sera clôturé à la fin du mois. Les règlements qui y
+seraient envoyés nous seraient retournés avec retard.
+
+Pour toute question, merci de répondre directement à ce message : notre
+standard est très chargé en cette période fiscale.
+
+Bien cordialement,
+
+Le service comptable
+Cabinet Brévant & Associés
+Abbeville

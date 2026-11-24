@@ -1,0 +1,36 @@
+Return-Path: <m.delattre@boulangerie-delattre.example>
+Received: from mail.boulangerie-delattre.example (mail.boulangerie-delattre.example [192.0.2.25])
+	by mx1.messagerie-pro.example (Postfix) with ESMTPS id 4F2C81A0B3
+	for <lea@cabinet-brevant.example>; Wed, 10 Feb 2027 09:14:37 +0100 (CET)
+Received: from [192.168.1.20] (poste-compta.boulangerie-delattre.example [192.168.1.20])
+	by mail.boulangerie-delattre.example (Postfix) with ESMTPSA id 7D41E2C01
+	for <lea@cabinet-brevant.example>; Wed, 10 Feb 2027 09:14:35 +0100 (CET)
+Authentication-Results: mx1.messagerie-pro.example;
+	spf=pass smtp.mailfrom=boulangerie-delattre.example;
+	dkim=pass header.d=boulangerie-delattre.example;
+	dmarc=pass header.from=boulangerie-delattre.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=boulangerie-delattre.example;
+	s=mail2026; h=from:to:subject:date:message-id;
+	bh=0KjQm7p1Zr3n9yQbVq0tYH0zv2sUeJmQ8pXyXo6c1aA=;
+	b=Vb3kq9Xh0R8m1T7cJp2wQe5nZs4yLu6aK0dFgHi3jMnOp5qRs7tUv9wXy1zA2bC3dE4fG5hI6jK7lM8nO9pQ==
+From: Marc Delattre <m.delattre@boulangerie-delattre.example>
+To: =?UTF-8?Q?L=C3=A9a?= <lea@cabinet-brevant.example>
+Subject: =?UTF-8?Q?Relev=C3=A9_de_janvier?=
+Date: Wed, 10 Feb 2027 09:14:35 +0100
+Message-ID: <20270210091435.7D41E2C01@mail.boulangerie-delattre.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Bonjour Léa,
+
+Comme chaque mois, j'ai déposé le relevé bancaire et les factures de
+janvier sur votre portail (depot.cabinet-brevant.example).
+
+Il manque la facture du réparateur du four, je la dépose dès que je l'ai.
+
+Bonne journée,
+
+Marc Delattre
+Boulangerie Delattre
+12 rue du Marché, Abbeville

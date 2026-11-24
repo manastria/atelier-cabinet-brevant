@@ -1,0 +1,65 @@
+Return-Path: <rebond-7731@relais-express.example>
+Received: from smtp4.relais-express.example (smtp4.relais-express.example [203.0.113.45])
+	by mx1.messagerie-pro.example (Postfix) with ESMTPS id 9A7E3C5D10
+	for <lea@cabinet-brevant.example>; Fri, 05 Mar 2027 16:47:52 +0100 (CET)
+Received: from client-web (unknown [198.51.100.77])
+	by smtp4.relais-express.example (Postfix) with ESMTPSA id 51B0E77F2
+	for <lea@cabinet-brevant.example>; Fri, 05 Mar 2027 15:47:49 +0000 (UTC)
+Authentication-Results: mx1.messagerie-pro.example;
+	spf=pass smtp.mailfrom=relais-express.example;
+	dkim=pass header.d=relais-express.example;
+	dmarc=none header.from=boulangerie-delatre.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=relais-express.example;
+	s=envoi1; h=from:to:subject:date:message-id;
+	bh=t6Hn2Wq8Lz0xYc4Vb1Nm7Kp3Rs9Df5Gh2Jk8Lq0We4Zx=;
+	b=Qw1eR2tY3uI4oP5aS6dF7gH8jK9lZ0xC1vB2nM3qW4eR5tY6uI7oP8aS9dF0gH1jK2lZ3xC4vB5nM6==
+From: Marc Delattre <m.delattre@boulangerie-delatre.example>
+Reply-To: m.delattre@boulangerie-delatre.example
+To: =?UTF-8?Q?L=C3=A9a?= <lea@cabinet-brevant.example>
+Subject: =?UTF-8?Q?Factures_de_f=C3=A9vrier_=E2=80=93_document_partag=C3=A9?=
+Date: Fri, 05 Mar 2027 16:47:49 +0100
+Message-ID: <20270305154749.51B0E77F2@smtp4.relais-express.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=_limite_4b7f"
+
+--=_limite_4b7f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Bonjour Léa,
+
+Le portail ne marche pas chez moi, je vous ai donc partagé les factures de
+février et le relevé bancaire pour la clôture.
+
+Ouvrir le document partagé :
+https://messagerie-pro.partage-securise.example/connexion?compte=lea
+
+Attention, le lien expire ce soir. Il faut vous connecter avec votre
+adresse de messagerie pour ouvrir le document.
+
+Bonne fin de semaine,
+
+Marc Delattre
+Boulangerie Delattre
+
+--=_limite_4b7f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<body>
+<p>Bonjour Léa,</p>
+<p>Le portail ne marche pas chez moi, je vous ai donc partagé les factures
+de février et le relevé bancaire pour la clôture.</p>
+<p><a href="https://messagerie-pro.partage-securise.example/connexion?compte=lea"
+style="background:#0b5cad;color:#ffffff;padding:10px 18px;text-decoration:none">Ouvrir
+le document partagé</a></p>
+<p>Attention, le lien expire ce soir. Il faut vous connecter avec votre
+adresse de messagerie pour ouvrir le document.</p>
+<p>Bonne fin de semaine,<br>
+Marc Delattre<br>
+Boulangerie Delattre</p>
+</body>
+</html>
+
+--=_limite_4b7f--

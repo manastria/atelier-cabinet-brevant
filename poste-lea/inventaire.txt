@@ -1,0 +1,39 @@
+Cabinet Brévant & Associés - relevé du poste de l'accueil
+Relevé à distance par Talis Info le lundi 15 mars 2027, 9 h 40
+
+Nom du poste      : PC-ACCUEIL
+Utilisatrice      : Léa (accueil et secrétariat)
+Compte de session : lea, membre du groupe Administrateurs du poste
+Système           : Windows 10 Professionnel, version 22H2
+Dernière mise à jour de sécurité installée : octobre 2025
+
+Windows Update
+  État                      : mises à jour suspendues
+  Commentaire de Léa        : « Ça redémarrait en plein milieu de la
+                              journée, alors j'ai mis en pause. »
+
+Sécurité Windows (antivirus Microsoft Defender)
+  Protection en temps réel  : désactivée
+  Définitions de virus      : 12 janvier 2027
+  Commentaire de Léa        : « Le logiciel du scanner était très lent,
+                              un collègue m'a dit de couper ça. »
+
+Pare-feu Windows
+  Réseau privé              : activé
+  Réseau public             : activé
+
+Logiciels installés (nom, version, date d'installation)
+  Mozilla Firefox                  128.0.3      juillet 2024
+  Adobe Acrobat Reader             2023.003     mai 2023
+  7-Zip                            22.01        août 2022
+  LibreOffice                      7.5.4        juin 2023
+  VLC media player                 3.0.18       janvier 2023
+  Java 8                           Update 361   février 2023
+  ScanPro (logiciel du scanner)    4.2          septembre 2021
+  Client VPN du cabinet            2.1          mars 2020
+
+Messagerie
+  Boîtes ouvertes dans le navigateur : lea@cabinet-brevant.example,
+                                       contact@cabinet-brevant.example
+  Mot de passe retenu par le navigateur : oui, pour la messagerie
+  Téléphone personnel de Léa : la boîte contact@ y est aussi configurée
