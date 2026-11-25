@@ -1,0 +1,35 @@
+/* style.css — portail de dépôt du cabinet Brévant */
+body { margin: 0; font-family: Verdana, Arial, sans-serif; font-size: 15px;
+       color: #222; background: #f2f2ee; }
+header { background: #1d4e6e; color: #fff; padding: 14px 24px; }
+header p { margin: 0; }
+.cabinet { font-size: 22px; font-weight: bold; }
+.sous-titre { font-size: 13px; opacity: .85; }
+nav { background: #d9e3ea; padding: 8px 24px; display: flex; gap: 18px;
+      flex-wrap: wrap; align-items: center; }
+nav a { color: #1d4e6e; }
+nav .interrupteur { margin-left: auto; background: #fff7d6;
+                    border: 1px solid #c9a227; padding: 2px 8px;
+                    text-decoration: none; color: #5a4500; }
+main { max-width: 860px; margin: 24px auto; background: #fff; padding: 8px 28px 24px;
+       border: 1px solid #ccc; }
+h1 { color: #1d4e6e; font-size: 22px; overflow-wrap: anywhere; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #bbb; padding: 6px 10px; text-align: left;
+         overflow-wrap: anywhere; }
+th { background: #e8eef2; }
+td.montant { text-align: right; white-space: nowrap; }
+.formulaire { display: grid; gap: 12px; max-width: 360px; }
+.formulaire label { display: grid; gap: 4px; }
+.formulaire input { padding: 6px; font-size: 15px; }
+.formulaire button { padding: 8px; font-size: 15px; background: #1d4e6e;
+                     color: #fff; border: 0; cursor: pointer; }
+.annees a { margin-right: 10px; }
+.erreur { color: #a40000; background: #fdecec; border: 1px solid #e3a5a5;
+          padding: 8px 12px; overflow-wrap: anywhere; }
+.requete { margin-top: 24px; border: 2px dashed #c9a227; background: #fffbea;
+           padding: 4px 14px; }
+.requete p { margin: 6px 0; font-weight: bold; color: #5a4500; }
+.requete pre { white-space: pre-wrap; overflow-wrap: anywhere;
+               font-family: "DejaVu Sans Mono", monospace; font-size: 14px; }
+footer { text-align: center; font-size: 12px; color: #777; margin-bottom: 24px; }

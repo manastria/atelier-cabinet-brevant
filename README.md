@@ -23,9 +23,9 @@ cd atelier-cabinet-brevant
 | `courriels/` | 025, partie 2 | Trois courriels en texte brut (`.eml`) : un relevé ordinaire d'un client, le courriel piégé reçu par Léa, le courriel au faux RIB envoyé aux clients |
 | `poste-lea/` | 025, partie 4 | Relevé du poste de l'accueil (système, mises à jour, antivirus, logiciels) |
 | `cabinet/` | 026, parties 1 à 4 | `installer-cabinet.sh` : recrée sur la VM le serveur de fichiers du cabinet dans son état fautif (comptes, groupe unique, dossiers `/srv/cabinet` ouverts à tous). À lancer avec `sudo` ; relançable, il remet l'état fautif |
+| `portail/` | 027 | `installer-portail.sh` : installe le portail de dépôt des clients (Apache, PHP, SQLite), `http://depot.cabinet-brevant.example/`, ouvert à la VM seule. À lancer avec `sudo`, avec un accès à Internet la première fois ; `--corrige` installe la version corrigée. Relançable : il recrée la base, sans toucher aux journaux d'Apache |
 
-Les fichiers des cours suivants (portail clients, preuves) s'ajouteront dans
-d'autres dossiers.
+Les fichiers du dernier cours (preuves) s'ajouteront dans un autre dossier.
 
 ## Mettre à jour les fichiers
 
